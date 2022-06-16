@@ -107,6 +107,10 @@ for index in names.indices {
 >[SwiftEchoes-Tips](https://github.com/Luur/SwiftEchoes-Tips) <br>
 >[swift-tips](https://github.com/JohnSundell/SwiftTips) <br>
 
+## Command line app in Swift
+>[Lets build a Command line app in Swift](https://medium.com/quick-code/lets-build-a-command-line-app-in-swift-328ce274f1cc) <br>
+>[Scripting in Swift: Git Hooks](https://www.polpiella.dev/scripting-in-swift-git-hooks) <br>
+
 ## swift 5.6
 >[new in Swift 5.6](https://www.hackingwithswift.com/articles/247/whats-new-in-swift-5-6) <br>
 SE-0335 introduces a new any keyword to mark existential types
