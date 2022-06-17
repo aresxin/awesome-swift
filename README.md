@@ -115,7 +115,7 @@ for index in names.indices {
 >[new in Swift 5.6](https://www.hackingwithswift.com/articles/247/whats-new-in-swift-5-6) <br>
 SE-0335 introduces a new any keyword to mark existential types
 SE-0315 introduces the concept of type placeholders
-SE-0290 introduces an inverted form of #available called #unavailable
+SE-0290 introduces an inverted form of #available called #unavailable <br>
 >[Swift 5.6 新特性](https://juejin.cn/post/7077369199626027039) <br>
 
 
