@@ -92,7 +92,8 @@ for index in names.indices {
 
 ## protocols
 >[Combining protocols in Swift](https://www.swiftbysundell.com/articles/combining-protocols-in-swift/) <br>
->[Abstract types and methods in Swift](https://www.swiftbysundell.com/articles/abstract-types-and-methods/) <br>
+>[Abstract types and methods in Swift](https://www.swiftbysundell.com/articles/abstract-types-and-methods/) (讨论面向对象与面向协议什么时候使用更合理)<br>
+>[Alternatives to protocols in Swift](https://www.swiftbysundell.com/articles/alternatives-to-protocols-in-swift/#classes-and-inherita) (讨论除了协议以外的其它选择比如枚举喝范型或者多个子协议)<br>
 >[PROTOCOL & GENERIC IN SWIFT](http://nonomori.bitcron.com/post/protocolandgenericinswift/readme) <br>
 ## Opaque Types some && swift 多态度
 >[some](https://juejin.cn/post/6844903862290104327) <br>
