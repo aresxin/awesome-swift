@@ -147,6 +147,8 @@ for index in names.indices {
 >[Using generic type constraints in Swift](https://www.swiftbysundell.com/articles/using-generic-type-constraints-in-swift-4/) <br>
 >[Type erasure using closures in Swift](https://www.swiftbysundell.com/articles/type-erasure-using-closures-in-swift/) <br>
 >[Avoiding race conditions in Swift](https://www.swiftbysundell.com/articles/avoiding-race-conditions-in-swift/) <br>
+>[Swift 中的幻象类型](https://mp.weixin.qq.com/s?__biz=MzAxNzgzNTgwMw==&mid=2247488350&idx=1&sn=6f6a8f3842a8957f0233e3c618a758c7&scene=21#wechat_redirect) <br>
+
 
 ## Opaque Types some && swift 多态度
 >[some](https://juejin.cn/post/6844903862290104327) <br>
