@@ -192,3 +192,12 @@ SE-0290 introduces an inverted form of #available called #unavailable <br>
 ## swift 5.7
 >[Swift 5.7新特性 (上)](https://juejin.cn/post/7107058234409615373) <br>
 >[Swift 5.7 新特性（下）](https://juejin.cn/post/7108562023876657189) <br>
+
+### 5.7 Embrace Swift generics
+>[Embrace Swift generics](https://developer.apple.com/videos/play/wwdc2022/110352) <br>
+>[Using the ‘some’ and ‘any’ keywords to reference generic protocols in Swift 5.7](https://www.swiftbysundell.com/articles/referencing-generic-protocols-with-some-and-any-keywords/) <br>
+
+### 5.7 Design protocol interfaces in Swift
+>[Design protocol interfaces in Swift](https://developer.apple.com/videos/play/wwdc2022/110353) <br>
+>[Swift_5.7_Generics](https://gist.github.com/protspace/eaeebc090d2c4c16466e45418cad0afb) <br>
+>[Design protocol interfaces in Swift](https://www.wwdcnotes.com/notes/wwdc22/110353/) <br>
