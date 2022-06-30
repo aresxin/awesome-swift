@@ -48,7 +48,8 @@
 >[Result builders](https://github.com/apple/swift-evolution/blob/main/proposals/0289-result-builders.md) <br>
 >[NSAttributedStringBuilder](https://github.com/ethanhuang13/NSAttributedStringBuilder) <br>
 >[使用 Swift 特性 Result Builder 定制 DSL](https://mp.weixin.qq.com/s/Rq1c26L9AnjdOtPSA96Ovw) <br>
-
+>[ViewBuilder 研究（上）—— 掌握 Result builders](https://mp.weixin.qq.com/s?__biz=MzU1Njg1NDg5NQ==&mid=2247484411&idx=1&sn=370851b6f34e06067da3fdfeea366c90&scene=21#wechat_redirect) <br>
+>[ViewBuilder 研究（下） —— 从模仿中学习](https://mp.weixin.qq.com/s?__biz=MzU1Njg1NDg5NQ==&mid=2247484421&idx=1&sn=33e14c8351f27323d58050a95b35acd9&chksm=fc3fff05cb48761346c9906fd3a9227bd404589b06c66cd57dd90cbf34cca2f37525d533cb3b&cur_album_id=2007635589558304775&scene=189#wechat_redirect) <br>
 ---
 ---
 
@@ -188,6 +189,9 @@ SE-0290 introduces an inverted form of #available called #unavailable <br>
 
 ---
 ---
+
+## Combine
+[从响应式编程到 Combine 实践](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247495012&idx=1&sn=89b85dd6e2e85d708a2415b78343e9a0&scene=21#wechat_redirect)
 
 ## swift 5.7
 >[Swift 5.7新特性 (上)](https://juejin.cn/post/7107058234409615373) <br>
