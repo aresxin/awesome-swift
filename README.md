@@ -193,6 +193,9 @@ SE-0290 introduces an inverted form of #available called #unavailable <br>
 ## Combine
 [从响应式编程到 Combine 实践](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247495012&idx=1&sn=89b85dd6e2e85d708a2415b78343e9a0&scene=21#wechat_redirect)
 
+---
+---
+
 ## swift 5.7
 >[Swift 5.7新特性 (上)](https://juejin.cn/post/7107058234409615373) <br>
 >[Swift 5.7 新特性（下）](https://juejin.cn/post/7108562023876657189) <br>
@@ -205,3 +208,7 @@ SE-0290 introduces an inverted form of #available called #unavailable <br>
 >[Design protocol interfaces in Swift](https://developer.apple.com/videos/play/wwdc2022/110353) <br>
 >[Swift_5.7_Generics](https://gist.github.com/protspace/eaeebc090d2c4c16466e45418cad0afb) <br>
 >[Design protocol interfaces in Swift](https://www.wwdcnotes.com/notes/wwdc22/110353/) <br>
+
+### [0335-existential-any](https://github.com/apple/swift-evolution/blob/main/proposals/0335-existential-any.md)
+[Existential any in Swift explained with code examples](https://www.avanderlee.com/swift/existential-any/) <br>
+[Some keyword in Swift: Opaque types explained with code examples](https://www.avanderlee.com/swift/some-opaque-types/) <br>
