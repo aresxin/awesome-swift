@@ -134,6 +134,8 @@ for index in names.indices {
 
 ## Array
 >[Swift子数组提取性能优化分析](https://mp.weixin.qq.com/s?__biz=MzU3NTY3MTQzMg==&mid=2247527626&idx=1&sn=a67bc5de7da51bc632d10a7eca50a345&scene=21#wechat_redirect) <br>
+>[reduce-in-swift](https://swdevnotes.com/swift/2022/reduce-in-swift/) <br>
+>[Lazy Sequences in Swift And How They Work](https://swiftrocks.com/lazy-sequences-in-swift-and-how-they-work) <br>
 
 ---
 ---
