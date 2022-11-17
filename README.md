@@ -216,3 +216,7 @@ SE-0290 introduces an inverted form of #available called #unavailable <br>
 ### [0335-existential-any](https://github.com/apple/swift-evolution/blob/main/proposals/0335-existential-any.md)
 [Existential any in Swift explained with code examples](https://www.avanderlee.com/swift/existential-any/) <br>
 [Some keyword in Swift: Opaque types explained with code examples](https://www.avanderlee.com/swift/some-opaque-types/) <br>
+
+
+## Refactoring Swift
+>[Refactoring Swift: Best Practices to succeed](https://www.avanderlee.com/optimization/refactoring-swift-best-practices/) <br>
