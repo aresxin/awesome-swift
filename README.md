@@ -228,3 +228,6 @@ SE-0290 introduces an inverted form of #available called #unavailable <br>
 
 ## [Regex](https://developer.apple.com/documentation/swift/regex)
 >[Swift 正则速查手册](https://onevcat.com/2022/11/swift-regex/) <br>
+
+## 《The Swift Programming Language》in Chinese
+[《The Swift Programming Language》in Chinese](https://swiftgg.gitbook.io/swift/) <br>
