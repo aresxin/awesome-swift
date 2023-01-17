@@ -231,3 +231,9 @@ SE-0290 introduces an inverted form of #available called #unavailable <br>
 
 ## 《The Swift Programming Language》in Chinese
 [《The Swift Programming Language》in Chinese](https://swiftgg.gitbook.io/swift/) <br>
+
+
+## dynamicReplacement
+[dynamicReplacement](https://github.com/apple/swift/blob/main/test/attr/dynamicReplacement.swift) <br>
+[wift Native method swizzling](https://www.guardsquare.com/blog/swift-native-method-swizzling) <br>
+[Swift 5 Method Swizzling, @_dynamicReplacement](https://www.jianshu.com/p/12b64469dc6c) <br>
