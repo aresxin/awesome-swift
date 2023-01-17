@@ -78,7 +78,7 @@
 >[https://www.imgeek.org/article/825359559](https://www.imgeek.org/article/825359559) <br>
 >[AsyncExtensions](https://github.com/AsyncCommunity/AsyncExtensions) <br>
 >[闲话 Swift 协程](https://www.bennyhuo.com/book/swift-coroutines) <br>
-
+>[Limit Swift Concurrency's cooperative pool](https://github.com/apple/swift/blob/main/test/attr/dynamicReplacement.swift) <br>
 ---
 ---
 
