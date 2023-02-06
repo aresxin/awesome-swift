@@ -237,3 +237,8 @@ SE-0290 introduces an inverted form of #available called #unavailable <br>
 [dynamicReplacement](https://github.com/apple/swift/blob/main/test/attr/dynamicReplacement.swift) <br>
 [Swift Native method swizzling](https://www.guardsquare.com/blog/swift-native-method-swizzling) <br>
 [Swift 5 Method Swizzling, @_dynamicReplacement](https://www.jianshu.com/p/12b64469dc6c) <br>
+
+
+## Swift之struct二进制大小分析
+https://juejin.cn/post/7191406877819797561 <br>
+https://github.com/erduoniba/HDSwiftStructSizeDemo <br>
