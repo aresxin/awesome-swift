@@ -242,3 +242,10 @@ SE-0290 introduces an inverted form of #available called #unavailable <br>
 ## Swift之struct二进制大小分析
 https://juejin.cn/post/7191406877819797561 <br>
 https://github.com/erduoniba/HDSwiftStructSizeDemo <br>
+
+
+## Pattern matching
+[Pattern matching on error codes](https://oleb.net/blog/2023/catch-error-code/) <br>
+[Pattern Matching in Swift](https://oleb.net/blog/2015/09/swift-pattern-matching/) <br>
+[Ranges and Intervals in Swift](https://oleb.net/blog/2015/09/swift-ranges-and-intervals/) <br>
+[More Pattern Matching Examples](https://oleb.net/blog/2015/09/more-pattern-matching-examples/) <br>
