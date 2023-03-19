@@ -249,3 +249,7 @@ https://github.com/erduoniba/HDSwiftStructSizeDemo <br>
 [Pattern Matching in Swift](https://oleb.net/blog/2015/09/swift-pattern-matching/) <br>
 [Ranges and Intervals in Swift](https://oleb.net/blog/2015/09/swift-ranges-and-intervals/) <br>
 [More Pattern Matching Examples](https://oleb.net/blog/2015/09/more-pattern-matching-examples/) <br>
+
+
+## swift-tips
+https://github.com/vincent-pradeilles/swift-tips
