@@ -251,6 +251,9 @@ https://github.com/erduoniba/HDSwiftStructSizeDemo <br>
 [More Pattern Matching Examples](https://oleb.net/blog/2015/09/more-pattern-matching-examples/) <br>
 
 
+## Wrapping functions in structs
+[Wrapping functions in structs](https://paul-samuels.com/blog/2023/03/18/wrapping-functions-in-structs/) <br>
+
 ## swift-tips
 https://github.com/vincent-pradeilles/swift-tips
 
