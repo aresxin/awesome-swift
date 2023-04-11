@@ -139,6 +139,7 @@ for index in names.indices {
 >[reduce-in-swift](https://swdevnotes.com/swift/2022/reduce-in-swift/) <br>
 >[Lazy Sequences in Swift And How They Work](https://swiftrocks.com/lazy-sequences-in-swift-and-how-they-work) <br>
 >[Which Collection?](https://khanlou.com/2022/10/some-collections/) <br>
+>[Group and sort Swift collections like a pro](https://danielsaidi.com/blog/2023/04/01/group-and-sort-swift-collections-like-a-pro) <br>
 ---
 ---
 
