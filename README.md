@@ -128,6 +128,10 @@ for index in names.indices {
 ---
 ---
 
+
+## Range
+[Ranges in Swift explained with code examples](https://www.avanderlee.com/swift/ranges-explained/) <br>
+
 ## SE-0302 Sendable 和 @Sendable 闭包
 >[【译】SE-0302 Sendable 和 @Sendable 闭包](https://kemchenj.github.io/2022-01-07/) <br>
 
