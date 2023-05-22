@@ -265,3 +265,6 @@ https://github.com/vincent-pradeilles/swift-tips
 
 ## awesome
 https://github.com/matteocrippa/awesome-swift
+
+## Swift 5.8
+[#file behavior change in Swift 5.8](https://sarunw.com/posts/file-behavior-change/) <br>
