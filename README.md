@@ -268,3 +268,6 @@ https://github.com/matteocrippa/awesome-swift
 
 ## Swift 5.8
 [#file behavior change in Swift 5.8](https://sarunw.com/posts/file-behavior-change/) <br>
+
+## Swift 5.9
+[What’s new in Swift 5.9](https://www.hackingwithswift.com/articles/258/whats-new-in-swift-5-9) <br>
