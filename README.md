@@ -272,3 +272,6 @@ https://github.com/matteocrippa/awesome-swift
 ## Swift 5.9
 [What’s new in Swift 5.9](https://www.hackingwithswift.com/articles/258/whats-new-in-swift-5-9) <br>
 [Swift 5.9 有哪些新特性（一）](https://blog.csdn.net/qq_36478920/article/details/131241997) <br>
+
+## Dependency Injection in Swift
+[Dependency Injection in Swift using latest Swift features](https://www.avanderlee.com/swift/dependency-injection/) <br>
