@@ -269,9 +269,16 @@ https://github.com/matteocrippa/awesome-swift
 ## Swift 5.8
 [#file behavior change in Swift 5.8](https://sarunw.com/posts/file-behavior-change/) <br>
 
+
+## Dependency Injection in Swift
+[Dependency Injection in Swift using latest Swift features](https://www.avanderlee.com/swift/dependency-injection/) <br>
+
+
 ## Swift 5.9
 [What’s new in Swift 5.9](https://www.hackingwithswift.com/articles/258/whats-new-in-swift-5-9) <br>
 [Swift 5.9 有哪些新特性（一）](https://blog.csdn.net/qq_36478920/article/details/131241997) <br>
 
-## Dependency Injection in Swift
-[Dependency Injection in Swift using latest Swift features](https://www.avanderlee.com/swift/dependency-injection/) <br>
+## 0393-parameter-packs
+[0393-parameter-packs](https://github.com/apple/swift-evolution/blob/main/proposals/0393-parameter-packs.md) <br>
+[Generalize APIs with parameter packs](https://developer.apple.com/videos/play/wwdc2023/10168) <br>
+[Value and Type Parameter Packs](https://www.hackingwithswift.com/swift/5.9/variadic-generics) <br>
