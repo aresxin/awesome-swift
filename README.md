@@ -9,31 +9,40 @@
 >[Swift 5.5 新特性](https://segmentfault.com/a/1190000040382170) <br>
 >[Swift 5.5 新特性](https://hicc.pro/p/swift/whats-new-in-swift-5-5) <br>
 
+### swift 5.6
+>[new in Swift 5.6](https://www.hackingwithswift.com/articles/247/whats-new-in-swift-5-6) <br>
+SE-0335 introduces a new any keyword to mark existential types
+SE-0315 introduces the concept of type placeholders
+SE-0290 introduces an inverted form of #available called #unavailable <br>
+>[Swift 5.6 新特性](https://juejin.cn/post/7077369199626027039) <br>
+
+### swift 5.7
+>[Swift 5.7 新特性介绍](https://mp.weixin.qq.com/s/gzzme538BJqh-yUcGr-AZQ) <br>
+>[Swift 5.7新特性 (上)](https://juejin.cn/post/7107058234409615373) <br>
+>[Swift 5.7 新特性（下）](https://juejin.cn/post/7108562023876657189) <br>
+>[Combining opaque return types with primary associated types](https://www.swiftbysundell.com/articles/opaque-return-types-primary-associated-types/) <br>
+
+#### 5.7 Embrace Swift generics
+>[Embrace Swift generics](https://developer.apple.com/videos/play/wwdc2022/110352) <br>
+>[Using the ‘some’ and ‘any’ keywords to reference generic protocols in Swift 5.7](https://www.swiftbysundell.com/articles/referencing-generic-protocols-with-some-and-any-keywords/) <br>
+
+#### 5.7 Design protocol interfaces in Swift
+>[Design protocol interfaces in Swift](https://developer.apple.com/videos/play/wwdc2022/110353) <br>
+>[Swift_5.7_Generics](https://gist.github.com/protspace/eaeebc090d2c4c16466e45418cad0afb) <br>
+>[Design protocol interfaces in Swift](https://www.wwdcnotes.com/notes/wwdc22/110353/) <br>
+
+### Swift 5.8
+[#file behavior change in Swift 5.8](https://sarunw.com/posts/file-behavior-change/) <br>
+
+### Swift 5.9
+[What’s new in Swift 5.9](https://www.hackingwithswift.com/articles/258/whats-new-in-swift-5-9) <br>
+[Swift 5.9 有哪些新特性（一）](https://blog.csdn.net/qq_36478920/article/details/131241997) <br>
+
 ---
 ---
 
 
-## Concurrency
 
-### swift concurrency
->[Swift 并发初步](https://onevcat.com/2021/07/swift-concurrency/) <br>
->[Swift 结构化并发](https://onevcat.com/2021/09/structured-concurrency/) <br>
->[What role do Tasks play within Swift’s concurrency system?](https://www.swiftbysundell.com/articles/the-role-tasks-play-in-swift-concurrency/#context-inheritance) <br>
->[Async and Await in Swift 5.5](https://mp.weixin.qq.com/s/DopuYyy479eSjgns3iaWaw) <br>
->[WWDC21 Explore structured concurrency in Swift](https://juejin.cn/post/6973336267794677791) <br>
->[Using AsyncSequence in Swift](https://www.andyibanez.com/posts/using-asyncsequence-in-swift/) <br>
->[https://www.imgeek.org/article/825359559](https://www.imgeek.org/article/825359559) <br>
->[AsyncExtensions](https://github.com/AsyncCommunity/AsyncExtensions) <br>
->[闲话 Swift 协程](https://www.bennyhuo.com/book/swift-coroutines) <br>
->[Limit Swift Concurrency's cooperative pool](https://github.com/apple/swift/blob/main/test/attr/dynamicReplacement.swift) <br>
-
----
----
-
-## Protocols
-
----
----
 
 ## Swift Evolution
 
@@ -80,12 +89,65 @@
 
 
 
-### Property Wrappers
+### [0258-property-wrappers](https://github.com/apple/swift-evolution/blob/main/proposals/0258-property-wrappers.md)
 >[[译]Swift中的原子属性装饰器](https://hicc.pro/p/blog/atomic-property-wrapper-in-swift) <br>
 >[Property Wrappers in Swift explained with code examples](https://www.avanderlee.com/swift/property-wrappers/) <br>
 >[Projecting a Value From a Property Wrapper](https://www.avanderlee.com/swift/property-wrappers/#projecting-a-value-from-a-property-wrapper) <br>
 >[Accessing a property wrapper’s enclosing instance](https://www.avanderlee.com/swift/property-wrappers/#accessing-a-property-wrappers-enclosing-instance) <br>
 >[Attaching Property Wrappers to function and closure parameters](https://www.avanderlee.com/swift/property-wrappers/#attaching-property-wrappers-to-function-and-closure-parameters) <br>
+
+### 0393-parameter-packs
+[0393-parameter-packs](https://github.com/apple/swift-evolution/blob/main/proposals/0393-parameter-packs.md) <br>
+[Generalize APIs with parameter packs](https://developer.apple.com/videos/play/wwdc2023/10168) <br>
+[Value and Type Parameter Packs](https://www.hackingwithswift.com/swift/5.9/variadic-generics) <br>
+
+### SE-0302 Sendable 和 @Sendable 闭包
+>[【译】SE-0302 Sendable 和 @Sendable 闭包](https://kemchenj.github.io/2022-01-07/) <br>
+
+### [0335-existential-any](https://github.com/apple/swift-evolution/blob/main/proposals/0335-existential-any.md)
+[Existential any in Swift explained with code examples](https://www.avanderlee.com/swift/existential-any/) <br>
+[Some keyword in Swift: Opaque types explained with code examples](https://www.avanderlee.com/swift/some-opaque-types/) <br>
+
+---
+---
+
+
+## Concurrency
+### swift concurrency
+>[Swift 并发初步](https://onevcat.com/2021/07/swift-concurrency/) <br>
+>[Swift 结构化并发](https://onevcat.com/2021/09/structured-concurrency/) <br>
+>[What role do Tasks play within Swift’s concurrency system?](https://www.swiftbysundell.com/articles/the-role-tasks-play-in-swift-concurrency/#context-inheritance) <br>
+>[Async and Await in Swift 5.5](https://mp.weixin.qq.com/s/DopuYyy479eSjgns3iaWaw) <br>
+>[WWDC21 Explore structured concurrency in Swift](https://juejin.cn/post/6973336267794677791) <br>
+>[Using AsyncSequence in Swift](https://www.andyibanez.com/posts/using-asyncsequence-in-swift/) <br>
+>[https://www.imgeek.org/article/825359559](https://www.imgeek.org/article/825359559) <br>
+>[AsyncExtensions](https://github.com/AsyncCommunity/AsyncExtensions) <br>
+>[闲话 Swift 协程](https://www.bennyhuo.com/book/swift-coroutines) <br>
+>[Limit Swift Concurrency's cooperative pool](https://github.com/apple/swift/blob/main/test/attr/dynamicReplacement.swift) <br>
+
+---
+---
+
+## Protocols
+>[Combining protocols in Swift](https://www.swiftbysundell.com/articles/combining-protocols-in-swift/) <br>
+>[Abstract types and methods in Swift](https://www.swiftbysundell.com/articles/abstract-types-and-methods/) (讨论面向对象与面向协议什么时候使用更合理)<br>
+>[Alternatives to protocols in Swift](https://www.swiftbysundell.com/articles/alternatives-to-protocols-in-swift/#classes-and-inherita) (讨论除了协议以外的其它选择比如枚举喝范型或者多个子协议)<br>
+>[PROTOCOL & GENERIC IN SWIFT](http://nonomori.bitcron.com/post/protocolandgenericinswift/readme) <br>
+>[Why can’t certain protocols, like Equatable and Hashable, be referenced directly?](https://www.swiftbysundell.com/questions/referencing-generic-protocols/) <br>
+>[Different flavors of type erasure in Swift](https://www.swiftbysundell.com/articles/different-flavors-of-type-erasure-in-swift/#external-specialization) <br>
+>[Using generic type constraints in Swift](https://www.swiftbysundell.com/articles/using-generic-type-constraints-in-swift-4/) <br>
+>[Type erasure using closures in Swift](https://www.swiftbysundell.com/articles/type-erasure-using-closures-in-swift/) <br>
+>[Avoiding race conditions in Swift](https://www.swiftbysundell.com/articles/avoiding-race-conditions-in-swift/) <br>
+>[Swift 中的幻象类型](https://mp.weixin.qq.com/s?__biz=MzAxNzgzNTgwMw==&mid=2247488350&idx=1&sn=6f6a8f3842a8957f0233e3c618a758c7&scene=21#wechat_redirect) <br>
+>[Tagged with Protocols](https://www.swiftbysundell.com/tags/protocols/) <br>
+>[Tagged with Generics](https://www.swiftbysundell.com/tags/generics/) <br>
+
+### Opaque Types some && swift 多态度
+>[some](https://juejin.cn/post/6844903862290104327) <br>
+>[Swift 的类型多态](https://blog.mzying.com/index.php/archives/274/) <br>
+
+### Dependency Injection in Swift
+[Dependency Injection in Swift using latest Swift features](https://www.avanderlee.com/swift/dependency-injection/) <br>
 
 ---
 ---
@@ -130,8 +192,7 @@ for index in names.indices {
 ## Range
 [Ranges in Swift explained with code examples](https://www.avanderlee.com/swift/ranges-explained/) <br>
 
-## SE-0302 Sendable 和 @Sendable 闭包
->[【译】SE-0302 Sendable 和 @Sendable 闭包](https://kemchenj.github.io/2022-01-07/) <br>
+
 
 ---
 ---
@@ -146,23 +207,9 @@ for index in names.indices {
 ---
 
 ## protocols
->[Combining protocols in Swift](https://www.swiftbysundell.com/articles/combining-protocols-in-swift/) <br>
->[Abstract types and methods in Swift](https://www.swiftbysundell.com/articles/abstract-types-and-methods/) (讨论面向对象与面向协议什么时候使用更合理)<br>
->[Alternatives to protocols in Swift](https://www.swiftbysundell.com/articles/alternatives-to-protocols-in-swift/#classes-and-inherita) (讨论除了协议以外的其它选择比如枚举喝范型或者多个子协议)<br>
->[PROTOCOL & GENERIC IN SWIFT](http://nonomori.bitcron.com/post/protocolandgenericinswift/readme) <br>
->[Why can’t certain protocols, like Equatable and Hashable, be referenced directly?](https://www.swiftbysundell.com/questions/referencing-generic-protocols/) <br>
->[Different flavors of type erasure in Swift](https://www.swiftbysundell.com/articles/different-flavors-of-type-erasure-in-swift/#external-specialization) <br>
->[Using generic type constraints in Swift](https://www.swiftbysundell.com/articles/using-generic-type-constraints-in-swift-4/) <br>
->[Type erasure using closures in Swift](https://www.swiftbysundell.com/articles/type-erasure-using-closures-in-swift/) <br>
->[Avoiding race conditions in Swift](https://www.swiftbysundell.com/articles/avoiding-race-conditions-in-swift/) <br>
->[Swift 中的幻象类型](https://mp.weixin.qq.com/s?__biz=MzAxNzgzNTgwMw==&mid=2247488350&idx=1&sn=6f6a8f3842a8957f0233e3c618a758c7&scene=21#wechat_redirect) <br>
->[Tagged with Protocols](https://www.swiftbysundell.com/tags/protocols/) <br>
->[Tagged with Generics](https://www.swiftbysundell.com/tags/generics/) <br>
 
 
-## Opaque Types some && swift 多态度
->[some](https://juejin.cn/post/6844903862290104327) <br>
->[Swift 的类型多态](https://blog.mzying.com/index.php/archives/274/) <br>
+
 
 ---
 ---
@@ -187,12 +234,7 @@ for index in names.indices {
 ---
 ---
 
-## swift 5.6
->[new in Swift 5.6](https://www.hackingwithswift.com/articles/247/whats-new-in-swift-5-6) <br>
-SE-0335 introduces a new any keyword to mark existential types
-SE-0315 introduces the concept of type placeholders
-SE-0290 introduces an inverted form of #available called #unavailable <br>
->[Swift 5.6 新特性](https://juejin.cn/post/7077369199626027039) <br>
+
 
 ---
 ---
@@ -203,24 +245,9 @@ SE-0290 introduces an inverted form of #available called #unavailable <br>
 ---
 ---
 
-## swift 5.7
->[Swift 5.7 新特性介绍](https://mp.weixin.qq.com/s/gzzme538BJqh-yUcGr-AZQ) <br>
->[Swift 5.7新特性 (上)](https://juejin.cn/post/7107058234409615373) <br>
->[Swift 5.7 新特性（下）](https://juejin.cn/post/7108562023876657189) <br>
->[Combining opaque return types with primary associated types](https://www.swiftbysundell.com/articles/opaque-return-types-primary-associated-types/) <br>
 
-### 5.7 Embrace Swift generics
->[Embrace Swift generics](https://developer.apple.com/videos/play/wwdc2022/110352) <br>
->[Using the ‘some’ and ‘any’ keywords to reference generic protocols in Swift 5.7](https://www.swiftbysundell.com/articles/referencing-generic-protocols-with-some-and-any-keywords/) <br>
 
-### 5.7 Design protocol interfaces in Swift
->[Design protocol interfaces in Swift](https://developer.apple.com/videos/play/wwdc2022/110353) <br>
->[Swift_5.7_Generics](https://gist.github.com/protspace/eaeebc090d2c4c16466e45418cad0afb) <br>
->[Design protocol interfaces in Swift](https://www.wwdcnotes.com/notes/wwdc22/110353/) <br>
 
-### [0335-existential-any](https://github.com/apple/swift-evolution/blob/main/proposals/0335-existential-any.md)
-[Existential any in Swift explained with code examples](https://www.avanderlee.com/swift/existential-any/) <br>
-[Some keyword in Swift: Opaque types explained with code examples](https://www.avanderlee.com/swift/some-opaque-types/) <br>
 
 ---
 ---
@@ -264,19 +291,14 @@ https://github.com/vincent-pradeilles/swift-tips
 ## awesome
 https://github.com/matteocrippa/awesome-swift
 
-## Swift 5.8
-[#file behavior change in Swift 5.8](https://sarunw.com/posts/file-behavior-change/) <br>
 
 
-## Dependency Injection in Swift
-[Dependency Injection in Swift using latest Swift features](https://www.avanderlee.com/swift/dependency-injection/) <br>
 
 
-## Swift 5.9
-[What’s new in Swift 5.9](https://www.hackingwithswift.com/articles/258/whats-new-in-swift-5-9) <br>
-[Swift 5.9 有哪些新特性（一）](https://blog.csdn.net/qq_36478920/article/details/131241997) <br>
 
-## 0393-parameter-packs
-[0393-parameter-packs](https://github.com/apple/swift-evolution/blob/main/proposals/0393-parameter-packs.md) <br>
-[Generalize APIs with parameter packs](https://developer.apple.com/videos/play/wwdc2023/10168) <br>
-[Value and Type Parameter Packs](https://www.hackingwithswift.com/swift/5.9/variadic-generics) <br>
+
+
+
+
+
+## Other
