@@ -1,74 +1,21 @@
 # awesome-swift
 
-## 0195-dynamic-member-lookup
->https://github.com/apple/swift-evolution/blob/master/proposals/0195-dynamic-member-lookup.md
->https://juejin.cn/post/6844903621306351624
+## Swift Release
 
----
----
-
-## 0216-dynamic-callable
->https://github.com/apple/swift-evolution/blob/master/proposals/0216-dynamic-callable.md <br>
->https://www.jianshu.com/p/49b8e6f6a51d <br>
->https://medium.com/swlh/calling-ios-and-macos-hidden-api-in-style-1a924f244ad1 <br>
-
----
----
-
-## 0296-async-await
->https://github.com/apple/swift-evolution/blob/main/proposals/0296-async-await.md
->https://www.enekoalonso.com/articles/getting-started-with-async-await-in-swift
->https://developer.apple.com/library/archive/documentation/ToolsLanguages/Conceptual/Xcode_Overview/AlternativeToolchains.html
->https://ordinarycoding.com/articles/managing-toolchains-in-xcode/
-
----
----
-
-## swift5.2~5.4
+### swift5.2~5.4
 >[Swift 5.2到5.4新特性整理](https://hicc.pro/p/swift/whats-new-in-swift-5-2-to-5-4) <br>
 
----
----
-
-## swift5.5
+### swift5.5
 >[Swift 5.5 新特性](https://segmentfault.com/a/1190000040382170) <br>
 >[Swift 5.5 新特性](https://hicc.pro/p/swift/whats-new-in-swift-5-5) <br>
 
 ---
 ---
 
-## 0054-abolish-iuo
->[0054-abolish-iuo](https://github.com/apple/swift-evolution/blob/master/proposals/0054-abolish-iuo.md) <br>
->[Coercion of implicitly unwrappable value]<https://useyourloaf.com/blog/coercion-of-implicitly-unwrappable-value/> <br>
 
----
----
+## Concurrency
 
-## 0289-result-builders
->[Result builders](https://github.com/apple/swift-evolution/blob/main/proposals/0289-result-builders.md) <br>
->[NSAttributedStringBuilder](https://github.com/ethanhuang13/NSAttributedStringBuilder) <br>
->[使用 Swift 特性 Result Builder 定制 DSL](https://mp.weixin.qq.com/s/Rq1c26L9AnjdOtPSA96Ovw) <br>
->[ViewBuilder 研究（上）—— 掌握 Result builders](https://mp.weixin.qq.com/s?__biz=MzU1Njg1NDg5NQ==&mid=2247484411&idx=1&sn=370851b6f34e06067da3fdfeea366c90&scene=21#wechat_redirect) <br>
->[ViewBuilder 研究（下） —— 从模仿中学习](https://mp.weixin.qq.com/s?__biz=MzU1Njg1NDg5NQ==&mid=2247484421&idx=1&sn=33e14c8351f27323d58050a95b35acd9&chksm=fc3fff05cb48761346c9906fd3a9227bd404589b06c66cd57dd90cbf34cca2f37525d533cb3b&cur_album_id=2007635589558304775&scene=189#wechat_redirect) <br>
->[result-builders/](https://www.avanderlee.com/swift/result-builders/) <br>
----
----
-
-## KeyPath
->[KeyPath在Swift中的妙用](https://juejin.cn/post/6844903717511102472) <br>
->[Dynamic Member Lookup combined with key paths in Swift](https://www.avanderlee.com/swift/dynamic-member-lookup/) <br>
-
----
----
-
-## 0306-actors
->[0306-actors](https://github.com/apple/swift-evolution/blob/main/proposals/0306-actors.md) <br>
->[【译】SE-0306 Actors](https://kemchenj.github.io/2021-04-25/) <br>
-
----
----
-
-## swift concurrency
+### swift concurrency
 >[Swift 并发初步](https://onevcat.com/2021/07/swift-concurrency/) <br>
 >[Swift 结构化并发](https://onevcat.com/2021/09/structured-concurrency/) <br>
 >[What role do Tasks play within Swift’s concurrency system?](https://www.swiftbysundell.com/articles/the-role-tasks-play-in-swift-concurrency/#context-inheritance) <br>
@@ -79,10 +26,61 @@
 >[AsyncExtensions](https://github.com/AsyncCommunity/AsyncExtensions) <br>
 >[闲话 Swift 协程](https://www.bennyhuo.com/book/swift-coroutines) <br>
 >[Limit Swift Concurrency's cooperative pool](https://github.com/apple/swift/blob/main/test/attr/dynamicReplacement.swift) <br>
+
 ---
 ---
 
-## Property Wrappers
+## Protocols
+
+---
+---
+
+## Swift Evolution
+
+### 0195-dynamic-member-lookup
+>https://github.com/apple/swift-evolution/blob/master/proposals/0195-dynamic-member-lookup.md
+>https://juejin.cn/post/6844903621306351624
+
+
+### 0216-dynamic-callable
+>https://github.com/apple/swift-evolution/blob/master/proposals/0216-dynamic-callable.md <br>
+>https://www.jianshu.com/p/49b8e6f6a51d <br>
+>https://medium.com/swlh/calling-ios-and-macos-hidden-api-in-style-1a924f244ad1 <br>
+
+
+### 0296-async-await
+>https://github.com/apple/swift-evolution/blob/main/proposals/0296-async-await.md
+>https://www.enekoalonso.com/articles/getting-started-with-async-await-in-swift
+>https://developer.apple.com/library/archive/documentation/ToolsLanguages/Conceptual/Xcode_Overview/AlternativeToolchains.html
+>https://ordinarycoding.com/articles/managing-toolchains-in-xcode/
+
+
+### 0054-abolish-iuo
+>[0054-abolish-iuo](https://github.com/apple/swift-evolution/blob/master/proposals/0054-abolish-iuo.md) <br>
+>[Coercion of implicitly unwrappable value]<https://useyourloaf.com/blog/coercion-of-implicitly-unwrappable-value/> <br>
+
+
+### 0289-result-builders
+>[Result builders](https://github.com/apple/swift-evolution/blob/main/proposals/0289-result-builders.md) <br>
+>[NSAttributedStringBuilder](https://github.com/ethanhuang13/NSAttributedStringBuilder) <br>
+>[使用 Swift 特性 Result Builder 定制 DSL](https://mp.weixin.qq.com/s/Rq1c26L9AnjdOtPSA96Ovw) <br>
+>[ViewBuilder 研究（上）—— 掌握 Result builders](https://mp.weixin.qq.com/s?__biz=MzU1Njg1NDg5NQ==&mid=2247484411&idx=1&sn=370851b6f34e06067da3fdfeea366c90&scene=21#wechat_redirect) <br>
+>[ViewBuilder 研究（下） —— 从模仿中学习](https://mp.weixin.qq.com/s?__biz=MzU1Njg1NDg5NQ==&mid=2247484421&idx=1&sn=33e14c8351f27323d58050a95b35acd9&chksm=fc3fff05cb48761346c9906fd3a9227bd404589b06c66cd57dd90cbf34cca2f37525d533cb3b&cur_album_id=2007635589558304775&scene=189#wechat_redirect) <br>
+>[result-builders/](https://www.avanderlee.com/swift/result-builders/) <br>
+
+
+### [0161-key-paths](https://github.com/apple/swift-evolution/blob/main/proposals/0161-key-paths.md)
+>[KeyPath在Swift中的妙用](https://juejin.cn/post/6844903717511102472) <br>
+>[Dynamic Member Lookup combined with key paths in Swift](https://www.avanderlee.com/swift/dynamic-member-lookup/) <br>
+
+
+### 0306-actors
+>[0306-actors](https://github.com/apple/swift-evolution/blob/main/proposals/0306-actors.md) <br>
+>[【译】SE-0306 Actors](https://kemchenj.github.io/2021-04-25/) <br>
+
+
+
+### Property Wrappers
 >[[译]Swift中的原子属性装饰器](https://hicc.pro/p/blog/atomic-property-wrapper-in-swift) <br>
 >[Property Wrappers in Swift explained with code examples](https://www.avanderlee.com/swift/property-wrappers/) <br>
 >[Projecting a Value From a Property Wrapper](https://www.avanderlee.com/swift/property-wrappers/#projecting-a-value-from-a-property-wrapper) <br>
