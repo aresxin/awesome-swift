@@ -1,19 +1,19 @@
 # awesome-swift
 
 ## Contents
-- [Swift Release](#SwiftRelease)
-* Swift Evolution
-* POP
-* Concurrency
-* Combine
-* Regex
-* Command line app in Swift
-* Best Practices
-* Swift-Tips
-* awesome
-* Other
+- [Swift Release](#Swift-Release)
+* Swift Evolution(#Swift-Evolution)
+* POP(#POP)
+* Concurrency(#Concurrency)
+* Combine(#Combine)
+* Regex(#Regex)
+* Command line app in Swift(#CommandLineApp)
+* Best Practices(#Best-Practices)
+* Swift-Tips(#Swift-Tips)
+* awesome(#awesome)
+* Other(#Other)
 
-## SwiftRelease
+## Swift-Release
 
 ### swift5.2~5.4
 >[Swift 5.2到5.4新特性整理](https://hicc.pro/p/swift/whats-new-in-swift-5-2-to-5-4) <br>
@@ -55,7 +55,7 @@ SE-0290 introduces an inverted form of #available called #unavailable <br>
 ---
 
 
-## Swift Evolution
+## Swift-Evolution
 
 ### 0195-dynamic-member-lookup
 >https://github.com/apple/swift-evolution/blob/master/proposals/0195-dynamic-member-lookup.md
@@ -181,14 +181,14 @@ SE-0290 introduces an inverted form of #available called #unavailable <br>
 ---
 ---
 
-## Command line app in Swift
+## CommandLineApp
 >[Lets build a Command line app in Swift](https://medium.com/quick-code/lets-build-a-command-line-app-in-swift-328ce274f1cc) <br>
 >[Scripting in Swift: Git Hooks](https://www.polpiella.dev/scripting-in-swift-git-hooks) <br>
 
 ---
 ---
 
-## Best Practices
+## Best-Practices
 ### Refactoring Swift
 >[Refactoring Swift: Best Practices to succeed](https://www.avanderlee.com/optimization/refactoring-swift-best-practices/) <br>
 
