@@ -2,16 +2,16 @@
 
 ## Contents
 - [Swift Release](#Swift-Release)
-- Swift Evolution(#Swift-Evolution)
-- POP(#POP)
-- Concurrency(#Concurrency)
-- Combine(#Combine)
-- Regex(#Regex)
-- Command line app in Swift(#CommandLineApp)
-- Best Practices(#Best-Practices)
-- Swift-Tips(#Swift-Tips)
-- awesome(#awesome)
-- Other(#Other)
+- [Swift Evolution](#Swift-Evolution)
+- [POP](#POP)
+- [Concurrency](#Concurrency)
+- [Combine](#Combine)
+- [Regex](#Regex)
+- [Command line app in Swift](#CommandLineApp)
+- [Best Practices](#Best-Practices)
+- [Swift-Tips](#Swift-Tips)
+- [awesome](#awesome)
+- [Other](#Other)
 
 ## Swift-Release
 
