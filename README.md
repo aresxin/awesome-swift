@@ -13,7 +13,7 @@
 * awesome
 * Other
 
-## Swift Release
+## SwiftRelease
 
 ### swift5.2~5.4
 >[Swift 5.2到5.4新特性整理](https://hicc.pro/p/swift/whats-new-in-swift-5-2-to-5-4) <br>
