@@ -1,5 +1,17 @@
 # awesome-swift
 
+* Swift Release
+* Swift Evolution
+* POP
+* Concurrency
+* Combine
+* Regex
+* Command line app in Swift
+* Best Practices
+* Swift-Tips
+* awesome
+* Other
+
 ## Swift Release
 
 ### swift5.2~5.4
