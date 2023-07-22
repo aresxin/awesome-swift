@@ -42,8 +42,6 @@ SE-0290 introduces an inverted form of #available called #unavailable <br>
 ---
 
 
-
-
 ## Swift Evolution
 
 ### 0195-dynamic-member-lookup
@@ -108,27 +106,16 @@ SE-0290 introduces an inverted form of #available called #unavailable <br>
 [Existential any in Swift explained with code examples](https://www.avanderlee.com/swift/existential-any/) <br>
 [Some keyword in Swift: Opaque types explained with code examples](https://www.avanderlee.com/swift/some-opaque-types/) <br>
 
----
----
 
-
-## Concurrency
-### swift concurrency
->[Swift 并发初步](https://onevcat.com/2021/07/swift-concurrency/) <br>
->[Swift 结构化并发](https://onevcat.com/2021/09/structured-concurrency/) <br>
->[What role do Tasks play within Swift’s concurrency system?](https://www.swiftbysundell.com/articles/the-role-tasks-play-in-swift-concurrency/#context-inheritance) <br>
->[Async and Await in Swift 5.5](https://mp.weixin.qq.com/s/DopuYyy479eSjgns3iaWaw) <br>
->[WWDC21 Explore structured concurrency in Swift](https://juejin.cn/post/6973336267794677791) <br>
->[Using AsyncSequence in Swift](https://www.andyibanez.com/posts/using-asyncsequence-in-swift/) <br>
->[https://www.imgeek.org/article/825359559](https://www.imgeek.org/article/825359559) <br>
->[AsyncExtensions](https://github.com/AsyncCommunity/AsyncExtensions) <br>
->[闲话 Swift 协程](https://www.bennyhuo.com/book/swift-coroutines) <br>
->[Limit Swift Concurrency's cooperative pool](https://github.com/apple/swift/blob/main/test/attr/dynamicReplacement.swift) <br>
+### dynamicReplacement
+[dynamicReplacement](https://github.com/apple/swift/blob/main/test/attr/dynamicReplacement.swift) <br>
+[Swift Native method swizzling](https://www.guardsquare.com/blog/swift-native-method-swizzling) <br>
+[Swift 5 Method Swizzling, @_dynamicReplacement](https://www.jianshu.com/p/12b64469dc6c) <br>
 
 ---
 ---
 
-## Protocols
+## POP
 >[Combining protocols in Swift](https://www.swiftbysundell.com/articles/combining-protocols-in-swift/) <br>
 >[Abstract types and methods in Swift](https://www.swiftbysundell.com/articles/abstract-types-and-methods/) (讨论面向对象与面向协议什么时候使用更合理)<br>
 >[Alternatives to protocols in Swift](https://www.swiftbysundell.com/articles/alternatives-to-protocols-in-swift/#classes-and-inherita) (讨论除了协议以外的其它选择比如枚举喝范型或者多个子协议)<br>
@@ -152,22 +139,60 @@ SE-0290 introduces an inverted form of #available called #unavailable <br>
 ---
 ---
 
-## ABI
->[Swift ABI 稳定对我们到底意味着什么](https://onevcat.com/2019/02/swift-abi/) <br>
->app 尺寸会变小
-是的，但是这是 Apple 通过 App Thinning 帮我们完成的，不需要你操心。在提交 app 时，Apple 将会按照 iOS 系统创建不同的下载包。对于 iOS 12.2 的系统，因为它们预装了 Swift 5 的 runtime，所以不再需要 Swift 的库，它们会被从 app bundle 中删掉。对于 iOS 12.2 以下的系统，外甥打灯笼，照旧。
-一个新创建的空 app，针对 iOS 12.2 打包出来压缩后的下载大小是 26KB，而对 iOS 12.0 则是 2.4MB。如果你使用了很多标准库里的东西，那这个差距会更大 (因为没有用到的标准库的符号会被 strip 掉)，对于一个比较有规模的 app 来说，一般可以减小 10M 左右的体积。
+
+## Concurrency
+### swift concurrency
+>[Swift 并发初步](https://onevcat.com/2021/07/swift-concurrency/) <br>
+>[Swift 结构化并发](https://onevcat.com/2021/09/structured-concurrency/) <br>
+>[What role do Tasks play within Swift’s concurrency system?](https://www.swiftbysundell.com/articles/the-role-tasks-play-in-swift-concurrency/#context-inheritance) <br>
+>[Async and Await in Swift 5.5](https://mp.weixin.qq.com/s/DopuYyy479eSjgns3iaWaw) <br>
+>[WWDC21 Explore structured concurrency in Swift](https://juejin.cn/post/6973336267794677791) <br>
+>[Using AsyncSequence in Swift](https://www.andyibanez.com/posts/using-asyncsequence-in-swift/) <br>
+>[https://www.imgeek.org/article/825359559](https://www.imgeek.org/article/825359559) <br>
+>[AsyncExtensions](https://github.com/AsyncCommunity/AsyncExtensions) <br>
+>[闲话 Swift 协程](https://www.bennyhuo.com/book/swift-coroutines) <br>
+>[Limit Swift Concurrency's cooperative pool](https://github.com/apple/swift/blob/main/test/attr/dynamicReplacement.swift) <br>
 
 ---
 ---
 
-## Algorithms&Collection
->[初探 Swift 算法和集合](https://mp.weixin.qq.com/s/WpvuuUXQPwBHZpk8OmuPDg) <br>
+## Combine
+[从响应式编程到 Combine 实践](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247495012&idx=1&sn=89b85dd6e2e85d708a2415b78343e9a0&scene=21#wechat_redirect)
 
 ---
 ---
 
-## Loops
+## [Regex](https://developer.apple.com/documentation/swift/regex)
+>[Swift 正则速查手册](https://onevcat.com/2022/11/swift-regex/) <br>
+
+---
+---
+
+## Command line app in Swift
+>[Lets build a Command line app in Swift](https://medium.com/quick-code/lets-build-a-command-line-app-in-swift-328ce274f1cc) <br>
+>[Scripting in Swift: Git Hooks](https://www.polpiella.dev/scripting-in-swift-git-hooks) <br>
+
+---
+---
+
+## Best Practices
+### Refactoring Swift
+>[Refactoring Swift: Best Practices to succeed](https://www.avanderlee.com/optimization/refactoring-swift-best-practices/) <br>
+
+### Pattern matching
+[Pattern matching on error codes](https://oleb.net/blog/2023/catch-error-code/) <br>
+[Pattern Matching in Swift](https://oleb.net/blog/2015/09/swift-pattern-matching/) <br>
+[Ranges and Intervals in Swift](https://oleb.net/blog/2015/09/swift-ranges-and-intervals/) <br>
+[More Pattern Matching Examples](https://oleb.net/blog/2015/09/more-pattern-matching-examples/) <br>
+
+
+### Wrapping functions in structs
+[Wrapping functions in structs](https://paul-samuels.com/blog/2023/03/18/wrapping-functions-in-structs/) <br>
+
+### AnyObject, Any, and any
+>[AnyObject, Any, and any: When to use which?](https://www.avanderlee.com/swift/anyobject-any/) <br>
+
+### Loops
 >[Loops](https://www.swiftbysundell.com/basics/loops/) <br>
 
 "let names = ["John", "Emma", "Robert", "Julia"]
@@ -185,37 +210,23 @@ for index in names.indices {
 }
 "
 
----
----
-
-
-## Range
-[Ranges in Swift explained with code examples](https://www.avanderlee.com/swift/ranges-explained/) <br>
-
-
-
----
----
-
-## Array
+### Array
 >[Swift子数组提取性能优化分析](https://mp.weixin.qq.com/s?__biz=MzU3NTY3MTQzMg==&mid=2247527626&idx=1&sn=a67bc5de7da51bc632d10a7eca50a345&scene=21#wechat_redirect) <br>
 >[reduce-in-swift](https://swdevnotes.com/swift/2022/reduce-in-swift/) <br>
 >[Lazy Sequences in Swift And How They Work](https://swiftrocks.com/lazy-sequences-in-swift-and-how-they-work) <br>
 >[Which Collection?](https://khanlou.com/2022/10/some-collections/) <br>
 >[Group and sort Swift collections like a pro](https://danielsaidi.com/blog/2023/04/01/group-and-sort-swift-collections-like-a-pro) <br>
----
----
-
-## protocols
 
 
+### Range
+[Ranges in Swift explained with code examples](https://www.avanderlee.com/swift/ranges-explained/) <br>
 
+### Algorithms&Collection
+>[初探 Swift 算法和集合](https://mp.weixin.qq.com/s/WpvuuUXQPwBHZpk8OmuPDg) <br>
 
----
----
-
-## AnyObject, Any, and any
->[AnyObject, Any, and any: When to use which?](https://www.avanderlee.com/swift/anyobject-any/) <br>
+### Swift之struct二进制大小分析
+https://juejin.cn/post/7191406877819797561 <br>
+https://github.com/erduoniba/HDSwiftStructSizeDemo <br>
 
 ---
 ---
@@ -223,82 +234,22 @@ for index in names.indices {
 ## Swift-Tips
 >[SwiftEchoes-Tips](https://github.com/Luur/SwiftEchoes-Tips) <br>
 >[swift-tips](https://github.com/JohnSundell/SwiftTips) <br>
+>https://github.com/vincent-pradeilles/swift-tips <br>
 
 ---
 ---
-
-## Command line app in Swift
->[Lets build a Command line app in Swift](https://medium.com/quick-code/lets-build-a-command-line-app-in-swift-328ce274f1cc) <br>
->[Scripting in Swift: Git Hooks](https://www.polpiella.dev/scripting-in-swift-git-hooks) <br>
-
----
----
-
-
-
----
----
-
-## Combine
-[从响应式编程到 Combine 实践](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247495012&idx=1&sn=89b85dd6e2e85d708a2415b78343e9a0&scene=21#wechat_redirect)
-
----
----
-
-
-
-
-
----
----
-
-## Refactoring Swift
->[Refactoring Swift: Best Practices to succeed](https://www.avanderlee.com/optimization/refactoring-swift-best-practices/) <br>
-
-
-## [Regex](https://developer.apple.com/documentation/swift/regex)
->[Swift 正则速查手册](https://onevcat.com/2022/11/swift-regex/) <br>
-
-## 《The Swift Programming Language》in Chinese
-[《The Swift Programming Language》in Chinese](https://swiftgg.gitbook.io/swift/) <br>
-
-
-## dynamicReplacement
-[dynamicReplacement](https://github.com/apple/swift/blob/main/test/attr/dynamicReplacement.swift) <br>
-[Swift Native method swizzling](https://www.guardsquare.com/blog/swift-native-method-swizzling) <br>
-[Swift 5 Method Swizzling, @_dynamicReplacement](https://www.jianshu.com/p/12b64469dc6c) <br>
-
-
-## Swift之struct二进制大小分析
-https://juejin.cn/post/7191406877819797561 <br>
-https://github.com/erduoniba/HDSwiftStructSizeDemo <br>
-
-
-## Pattern matching
-[Pattern matching on error codes](https://oleb.net/blog/2023/catch-error-code/) <br>
-[Pattern Matching in Swift](https://oleb.net/blog/2015/09/swift-pattern-matching/) <br>
-[Ranges and Intervals in Swift](https://oleb.net/blog/2015/09/swift-ranges-and-intervals/) <br>
-[More Pattern Matching Examples](https://oleb.net/blog/2015/09/more-pattern-matching-examples/) <br>
-
-
-## Wrapping functions in structs
-[Wrapping functions in structs](https://paul-samuels.com/blog/2023/03/18/wrapping-functions-in-structs/) <br>
-
-## swift-tips
-https://github.com/vincent-pradeilles/swift-tips
-
 
 ## awesome
 https://github.com/matteocrippa/awesome-swift
 
-
-
-
-
-
-
-
-
-
+---
+---
 
 ## Other
+[《The Swift Programming Language》in Chinese](https://swiftgg.gitbook.io/swift/) <br>
+
+### ABI
+>[Swift ABI 稳定对我们到底意味着什么](https://onevcat.com/2019/02/swift-abi/) <br>
+>app 尺寸会变小
+是的，但是这是 Apple 通过 App Thinning 帮我们完成的，不需要你操心。在提交 app 时，Apple 将会按照 iOS 系统创建不同的下载包。对于 iOS 12.2 的系统，因为它们预装了 Swift 5 的 runtime，所以不再需要 Swift 的库，它们会被从 app bundle 中删掉。对于 iOS 12.2 以下的系统，外甥打灯笼，照旧。
+一个新创建的空 app，针对 iOS 12.2 打包出来压缩后的下载大小是 26KB，而对 iOS 12.0 则是 2.4MB。如果你使用了很多标准库里的东西，那这个差距会更大 (因为没有用到的标准库的符号会被 strip 掉)，对于一个比较有规模的 app 来说，一般可以减小 10M 左右的体积。
