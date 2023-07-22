@@ -1,7 +1,7 @@
 # awesome-swift
 
 ## Contents
-- [Swift Release](#Swift Release)
+- [Swift Release](#SwiftRelease)
 * Swift Evolution
 * POP
 * Concurrency
