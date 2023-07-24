@@ -7,6 +7,7 @@
 - [Concurrency](#Concurrency)
 - [Combine](#Combine)
 - [Regex](#Regex)
+- [Swift Macros](#Swift-Macros)
 - [Command line app in Swift](#CommandLineApp)
 - [Best Practices](#Best-Practices)
 - [Swift-Tips](#Swift-Tips)
@@ -178,6 +179,13 @@ SE-0290 introduces an inverted form of #available called #unavailable <br>
 ## [Regex](https://developer.apple.com/documentation/swift/regex)
 >[Swift 正则速查手册](https://onevcat.com/2022/11/swift-regex/) <br>
 
+---
+---
+
+## Swift-Macros
+>[WWDC23 10167 - 初见 Swift 宏](https://xiaozhuanlan.com/topic/1403528796) <br>
+>[WWDC23 一文看懂 Swift Macro](https://juejin.cn/post/7249888320166903867) <br>
+>[Swift-Macros](https://github.com/krzysztofzablocki/Swift-Macros) A curated list of awesome Swift Macros <br>
 ---
 ---
 
