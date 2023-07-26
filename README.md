@@ -166,7 +166,8 @@ SE-0290 introduces an inverted form of #available called #unavailable <br>
 >[AsyncExtensions](https://github.com/AsyncCommunity/AsyncExtensions) <br>
 >[闲话 Swift 协程](https://www.bennyhuo.com/book/swift-coroutines) <br>
 >[Limit Swift Concurrency's cooperative pool](https://github.com/apple/swift/blob/main/test/attr/dynamicReplacement.swift) <br>
-
+>[Swift 并发编程：原理探究](https://juejin.cn/post/7109758423805198367) <br>
+>[【WWDC21 10132/10133/10134】认识 Swift 中的异步与并发](https://xiaozhuanlan.com/topic/8627905413) <br>
 ---
 ---
 
