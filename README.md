@@ -172,7 +172,26 @@ SE-0290 introduces an inverted form of #available called #unavailable <br>
 ---
 
 ## Combine
-[从响应式编程到 Combine 实践](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247495012&idx=1&sn=89b85dd6e2e85d708a2415b78343e9a0&scene=21#wechat_redirect)
+>https://developer.apple.com/documentation/combine <br>
+https://theswiftdev.com/urlsession-and-the-combine-framework/ <br>
+https://onevcat.com/2020/01/customize-publisher/ <br>
+https://www.jianshu.com/p/df8535b40079 <br>
+https://www.jianshu.com/p/a9c04a84d911 <br>
+https://github.com/cx-org/CombineX <br>
+https://github.com/yanglfree/SwiftUI-Combine-Coding <br>
+https://learnku.com/articles/36322 <br>
+https://zhuanlan.zhihu.com/p/343631974 <br>
+[深入浅出 Apple 响应式框架 Combine](https://www.infoq.cn/article/eaq01u5jevuvqfghlqbs) <br>
+[Apple 官方异步编程框架：Swift Combine 简介](https://nemocdz.github.io/post/apple-%E5%AE%98%E6%96%B9%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E6%A1%86%E6%9E%B6swift-combine-%E7%AE%80%E4%BB%8B/) <br>
+[Apple 官方异步编程框架：Swift Combine 应用](https://nemocdz.github.io/post/apple-%E5%AE%98%E6%96%B9%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E6%A1%86%E6%9E%B6swift-combine-%E5%BA%94%E7%94%A8/) <br>
+[Combine 框架，从0到1 —— 5.Combine 提供的发布者(Publishers)](https://www.cnblogs.com/ficow/p/13728001.html) <br>
+[UIKit Combine](https://www.jianshu.com/p/b98f3e9c610c) <br>
+[Combine 简明教程一： Publisher、Subscriber](https://keisme.cn/Combine-%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B%E4%B8%80%EF%BC%9APublisher%E3%80%81Subscriber.html) <br>
+[Combine 简明教程二：自定义 Subscriber、Publisher](https://keisme.cn/Combine-%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B%E4%BA%8C%EF%BC%9A%E8%87%AA%E5%AE%9A%E4%B9%89-Subscriber%E3%80%81Publisher.html) <br>
+[Combine 简明教程三：Subject](https://keisme.cn/Combine-%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B%E4%B8%89%EF%BC%9ASubject.html) <br>
+[Combine 简明教程四：Operators](https://keisme.cn/Combine-%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B%E5%9B%9B%EF%BC%9AOperators.html) <br>
+[从响应式编程到 Combine 实践](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247495012&idx=1&sn=89b85dd6e2e85d708a2415b78343e9a0&scene=21#wechat_redirect) <br>
+
 
 ---
 ---
