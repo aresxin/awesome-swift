@@ -147,6 +147,9 @@ SE-0290 introduces an inverted form of #available called #unavailable <br>
 ### Opaque Types some && swift 多态度
 >[some](https://juejin.cn/post/6844903862290104327) <br>
 >[Swift 的类型多态](https://blog.mzying.com/index.php/archives/274/) <br>
+>[any and some](https://khorbushko.github.io/article/2024/12/06/any-and-some.html?issue=061&utm_source=fatbobman%20weekly%20issue%2061&utm_medium=email&utm_campaign=fatbobman%20weekly
+) <br>
+
 
 ### Dependency Injection in Swift
 [Dependency Injection in Swift using latest Swift features](https://www.avanderlee.com/swift/dependency-injection/) <br>
